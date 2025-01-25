@@ -5,3 +5,6 @@ expressjs [installing](https://expressjs.com/en/starter/installing.html)
 
 
 [Postman](https://www.postman.com/): The World's Leading API Platform | Sign Up for Free  
+
+[swagger-jsdoc](https://www.npmjs.com/package/swagger-jsdoc)  
+[swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express)  
