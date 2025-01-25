@@ -4,7 +4,7 @@ const swaggerUi = require("swagger-ui-express");
 const app = express();
 const port = 3000;
 
-var postRouter = require("./routes/posts");
+var postRouter = require("./src/routes/posts");
 
 const CSS_URL =
   "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.18.3/swagger-ui.min.css";
@@ -24,7 +24,7 @@ const options = {
       },
     },
   },
-  apis: ["routes/*.js"], // files containing annotations as above
+  apis: ["src/routes/*.js"], // files containing annotations as above
 };
 
 const specs = swaggerJsdoc(options);
